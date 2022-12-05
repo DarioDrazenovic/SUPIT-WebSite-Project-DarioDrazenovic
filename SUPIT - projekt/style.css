@@ -1,0 +1,489 @@
+@import url('/css/bootstrap.min.css');
+
+*{
+    margin: 0 auto;
+}
+
+
+#header{
+   position: fixed;
+   width: 100%;
+   height: 25px;
+   top: 0;
+   left: 0;
+   border-bottom: 100px solid black;
+}
+
+
+nav {
+   position: fixed;
+   overflow: hidden;
+   padding-right: 1160px;
+   top: 20px;
+   text-indent: 5px;
+}
+
+a {
+   /* makne underline na navbar linkovima */
+   text-decoration: none;
+   color: inherit;
+   font-weight: bold;
+}
+
+.video1{
+   /* pozicionira video unutar ekrana da nema scroll bara*/
+   position: fixed;
+   width: 100%;
+}
+
+
+ul{
+   /*stavlja da nema tocaka pored pocetna str itd.*/
+   list-style-type: none;
+}
+
+li{
+   display: inline-block;
+}
+
+li a{
+   color: white;
+   font-size: 15px;
+}
+
+.main{
+   height: 10%;
+   text-align: center;
+   font-size: 35px;
+   padding-top: 1%;
+   text-align: center;
+}
+
+.novostiNaslov1
+{
+   height: 10%;
+   text-align: center;
+   font-size: 35px;
+   padding-top: 6%;
+   text-align: center;
+}
+
+#prvo{
+   padding: 20px;
+   margin-left: 260px;
+   margin-right: 250px;
+   font-family: myFont;
+}
+
+@font-face {
+   font-family: myFont;
+   src: url('Sevillana-Regular.ttf');
+}
+
+#yLine {
+   color: #d5b60a;
+   margin-left: auto;
+   margin-right: auto;
+   height: 6px;
+   opacity: 1;
+}
+
+#citat{
+   background-color: rgb(231, 231, 231);
+   text-align: left;
+   font-size: 20px;
+   font-style: oblique;
+   padding: 70px;
+}
+
+#nasloviSred{
+   text-align: center;
+   padding: 50px;
+   color: darkred;
+   font-size: 30px;
+}
+
+#spec{
+   padding: 100px;
+   text-align:justify;
+}
+
+.card{
+   height: 350px;
+}
+
+#dRed{
+   padding: 10px;
+}
+
+#dRed4{
+   padding: 70px;
+}
+
+.center { /*slika centrirana*/
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+ }
+
+ #imgCesteOnama{
+    padding: 100px;
+ }
+
+ .KakoDoNasLista{
+   height: 90%;
+   width: 60%;
+   margin-left: 20%;
+   padding-top: 5%;
+}
+.KakoDoNasLista li{
+   height: 55%;
+   background-color: white;
+   color: black;
+   text-align: left;
+   font-size: large;
+   border: 2px solid whitesmoke;
+   border-radius: 2%;
+   padding: 1% 1%;
+}
+.lokacijaKakoDoNas{
+   height: 40%;
+   width: 49%;
+}
+.JPrijevozParking{
+   height: 40%;
+   width: 49%;
+   margin-left: 1%;
+}
+.kartaAlgebre{
+   width: 97%;
+   margin-top: 2%;
+   margin-left: 1%;
+}
+
+.OnamaFooter{
+   width: 100%;
+   height: 100%;
+   font-size: 50px;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   color: white;
+   font-family:verdana;
+}
+
+.Zaiskri{
+   /*cover rasteze sliku preko strane(zaiskri-slika)*/
+   background-size:cover;
+   text-align: center;
+   position: relative;
+   background-image: url(img/zaiskri-bg.jpg)
+}
+
+.anchorLinks{
+   text-align: end;
+   font-size: 18px;
+   color: orange;
+   text-indent: 30px;
+}
+
+.fade-in-text {
+   display: inline-block;
+   color: black;
+   animation: fadeIn linear 5s;
+   -webkit-animation: fadeIn linear 5s;
+   -moz-animation: fadeIn linear 5s;
+   -o-animation: fadeIn linear 5s;
+   -ms-animation: fadeIn linear 5s;
+ }
+ 
+ @keyframes fadeIn {
+   0% {opacity:0;}
+   100% {opacity:1;}
+ }
+ 
+ @-moz-keyframes fadeIn {
+   0% {opacity:0;}
+   100% {opacity:1;}
+ }
+ 
+ @-webkit-keyframes fadeIn {
+   0% {opacity:0;}
+   100% {opacity:1;}
+ }
+ 
+ @-o-keyframes fadeIn {
+   0% {opacity:0;}
+   100% {opacity:1;}
+ }
+ 
+ @-ms-keyframes fadeIn {
+   0% {opacity:0;}
+   100% {opacity:1;}
+ }
+
+ #yLine2{
+   color: #d5b60a;
+   margin-left: auto;
+   margin-right: auto;
+   height: 6px;
+   opacity: 1;
+ }
+
+ .novosti{
+   height: 100%;
+   width: 100%;
+   display: block;
+   background-color: whitesmoke;
+   text-align: center;
+   font-size: 80%;
+   padding: 9px;
+ }
+ .navig li{
+   height: 300px;
+   width: 300px;
+   margin-left: 5.5%;
+   margin-top: 3.5%;
+   border-radius: 50%;
+   border: 15px solid whitesmoke;
+   box-shadow: 0 0 25px grey;
+ }
+ #Slika1{
+   position: relative;
+   background-image: url(img/novost1.jpg);
+   background-position-x:center;
+   background-size: cover;
+   margin-left: 0;
+ }
+ #Slika2{
+   position: relative;
+   background-image: url(img/novost2.jpg);
+   background-position-x:center;
+   background-size: cover;
+}
+#Slika3{
+   position: relative;
+   background-image: url(img/novost3.jpg);
+   background-position-x:center;
+   background-size: cover;
+}
+#Slika1 .center{
+   position: fixed;
+   padding-right: 300px;
+   padding-top: 100px;
+}
+#Slika2 .center{
+   position:fixed;
+   padding-right: 310px;
+   padding-top: 100px;
+}
+#Slika3 .center{
+   position: fixed;
+   text-align: left;
+   padding-left: 75px;
+   padding-top: 100px;
+}
+
+footer{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
+footer .Zaiskri{
+   background-size:cover;
+   text-align: center;
+   position: relative;
+   padding: 60.9px;
+   background-image: url(img/zaiskri-bg.jpg)
+}
+footer .Footertxt{
+    color: white;
+    font-family:verdana;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 3%;
+    position: relative;
+}
+
+.Slika-novosti{
+   height: 60%;
+   width: 100%;
+   background-image: url(img/novost1.jpg);
+   background-size: cover;
+   position: relative;
+   color: white;
+}
+
+.novosti-text{
+   width: 60%;
+   top: 0%;
+   padding-top: 20%;
+}
+
+.novosti-text2{
+   width: 60%;
+   padding-top: 12.3%;
+}
+
+.novosti-text3{
+   width: 60%;
+   padding-top: 18.92%;
+}
+
+.worldSkill{
+   text-align: center;
+   font-size: 40px;
+}
+
+.yLine3
+{
+   color: #d5b60a;
+   padding: 3px;
+   opacity: 1;
+}
+
+.novost1-paragraf{
+   text-align: left;
+   margin-left: 17%;
+   margin-right: 15%;
+   margin-top: 3%;
+   margin-bottom: 3%;
+}
+
+.videoNovosti1{
+   padding-top: 1500px;
+   padding-right: 200px;
+}
+
+.slika-novosti2{
+   background-image: url(img/novost2.jpg);
+   background-size: cover;
+   color: white;
+}
+
+.footerNovosti2{
+   background-size:cover;
+   text-align: center;
+   position: relative;
+   background-image: url(img/zaiskri-bg.jpg)
+}
+
+.slika-novosti3{
+   background-image: url(img/novost3.jpg);
+   background-size: cover;
+   color: white;
+   height: 281px;
+}
+
+.Zaiskri2{
+   background-size:cover;
+   text-align: center;
+   position: relative;
+   background-image: url(img/zaiskri-bg.jpg)
+}
+
+.close{
+   position: absolute;
+   width: 50px;
+   top: 0px;
+   right: 0px;
+   background: #fff;
+   height: 30px;
+   border-radius: 80%;
+   cursor: pointer;
+}
+
+
+/* popup (background) */
+.popup {
+   background: rgba(0, 0, 0, 0.6);
+   position: absolute;
+   display: none; /* defaultno sakriven */
+   z-index: 1; /* iznad svega je */
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto; /* omoguci scrollanje ako je potrebno */
+   background-color: rgb(0,0,0);
+   background-color: rgba(0,0,0,0.4);
+   background: rgba(0, 0, 0, 0.6);
+ }
+ 
+ /* popup contents */
+ .modal-content {
+   background-color: #fefefe;
+   margin: 15% auto;
+   padding: 20px;
+   border: 1px solid #888;
+   width: 30%;
+ }
+
+ /* Close button */
+ .close {
+   color: #aaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+ }
+ .close:hover,
+ .close:focus {
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+ }
+
+
+.overlay{
+   font-size:  50px;
+   border-right: solid 2px rgba(255, 255, 255, 0.7);
+   white-space: nowrap;
+   overflow: hidden;
+   width: 34ch;
+   animation: typewriter 5s steps(34) 1s , cursor 500ms steps(34) infinite;
+   position:absolute;
+   top:500px;
+   left:500px;
+   z-index:1;
+}
+
+@keyframes typewriter{
+   0%{width: 0;}
+   100%{width: 34ch;}
+}
+
+.NazKolegija{
+   font-size: 20px;
+   font-weight: bold;
+}
+#NazKolegija{
+   margin-left: 410px;
+   margin-top: 20px;
+}
+
+#video_WorldSkills{
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.novostiImg{
+   border-radius: 30px;
+   padding: 5px;
+   transition: 0.5s all ease-in-out;
+}
+
+.novostiImg:hover {
+   animation: fadeout .5s ease forwards;
+   transform: scale(1.5);
+ }
+ 
+ @keyframes fadeout {
+   to {
+     opacity: 100%;
+   }
+ }

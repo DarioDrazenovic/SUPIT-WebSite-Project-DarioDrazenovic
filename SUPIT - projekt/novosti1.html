@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>novosti1</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="node_modules/lightbox2/dist/js/lightbox.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.css">
+    <script src="node_modules/jqueryui/jquery-ui.js"></script>
+</head>
+<body>
+    <header id="header" class="container-fluid"  style="z-index: 1">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand order-0" href="#">
+                <img src="img/Algebra-logo.png" alt="Algebra-logo" width="50" height="50"
+                    class="d-inline-block align-left" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon">
+                </span></button>
+            <div class="collapsed navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                    <li class="nav-item">
+                        <a href="stranica.html"><li><i class="fa fa-home"></i><b>Početna</b></li></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="oNama.html" class="Onamabtn"><li><i class="fa fa-comments-o" aria-hidden="true"></i> <b>O nama</b></li></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="novosti.html"><li><i class="fa fa-info-circle"></i> <b>Novosti</b></li></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="plan.html"><li><i class="fa fa-info-circle"></i> <b>Nastavni plan</b></li></a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="container">
+                            <button id="btn"><i class="fa fa-envelope"></i> <b>Kontakt</b></li></button>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+    </header>
+
+    <div class="sadrzaj">
+        <div class="Slika-novosti">
+            <div class="novosti-text">
+                <h1 style="font-size: 3em;">
+                    <b>Student Josip Stanešić 12. je sistemaš svijeta i dobitnik medalje izvrsnosti.</b>
+                </h1>
+            </div>
+        </div>
+        <div class="novosti1">
+            <div class="Novosti-header">
+                <p style="margin-top: 3%;" class="worldSkill">
+                    <b>WorldSkills natjecanje - Kazan 2019.</b>
+                </p>
+                    <div class="container">
+                        <hr class="yLine3">
+                    </div>
+                <div class="novost1-paragraf">
+                    <h2 style="font-size: x-large; margin-bottom: 5%;">
+                        Nakon godinu dana priprema za natjecanje WorldSkills Kazan 2019 na kojem je sudjelovalo 1300 natjecatelja iz
+                        cijelog svijeta, trud se itekako isplatio. Josip, student 3. godine preddiplomskog studija sistemskog
+                        inženjerstva osvojio je 12. mjesto u vještini IT Networks and System Administration te osvojio medalju
+                        izvrsnosti! Čestitke Josipu ali i njegovim/našim mentorima koji su ga pripremali za ovo natjecanje –
+                        voditelju studija sistemskog inženjerstva Silviju Papiću, voditelju katedre za operacijske sustave –
+                        Vedranu Dakiću i asistentu na studiju sistemskog inženjerstva – Jasminu Redžepagiću. Čestitke i našem
+                        studentu 3.godine preddiplomskog studija programskog inženjerstva Josipu Horvatu i mentoru voditelju katedre
+                        za programsko inženjerstvo - Goranu Đambiću na osvojenom 16.mjestu u vještini IT Software Solutions for Business.
+                    </h2>
+                </div>
+            </div>
+            
+            <table style="justify-content: center; margin-left: 40%; width: 20%; display: flex; ">
+                <tr>
+                    <th>
+                        <a class="zoom"  href="img/novost1.jpg" data-lightbox="novosti1">
+                            <img src="img/novost1.jpg" id="hover1" class="novostiImg" alt="novost1"  style="opacity: 50%;"
+                            width="400"
+                           height="200">
+                        </a>
+                    </th>
+                    <th>
+                        <a href="zoom"  id="hover1" data-lightbox="novosti1">
+                            <img src="img/galerija2.jpg" class="novostiImg" id="hover1" alt="novosti1" style="opacity: 50%;"
+                            width="400"
+                           height="200">
+                        </a>
+                    </th>
+                </tr>
+            </table>
+            <div>
+                <video class="video2" src="video/worldskills.mp4" type="video/mp4" id="video_WorldSkills" controls muted></video>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div id="myPopup" class="popup">
+
+        <!-- popup content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1><i class="fa fa-envelope">Kontaktirajte nas</i></h1>
+            <hr>
+            <form action="http://www.fulek.com/VUA/SUPIT/ContactUs" method="post">
+                <div>
+                <label for="name">Puno ime:</label>
+                <div></div>
+                <input type="text" id="name" name="name"> <br> <br>
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <div></div>
+                <input type="email" id="email" name="email"> <br> <br>
+            </div>
+            <div>
+                <label for="importance">Važnost poruke:</label>
+                <select id="importance" name="importance"> <br> <br>
+                    <option value="Visoka">Visoka</option>
+                    <option value="Niska">Niska</option>
+                </select> <br> <br>
+            </div>
+                <label for="message">Vaša poruka:</label>
+                <div></div>
+                <textarea id="message" name="message" placeholder="Napiši poruku..." style="height: 120px;"></textarea> <br> <br>
+                <div>
+                <label for="newsletter">Primaj newsletter:</label>
+                <input type="checkbox" id="newsletter" name="newsletter"><br><br><br>
+            </div>
+                <input type="submit" value="Pošalji">
+            </form>
+        
+    </div>
+</div>
+
+
+
+
+<script>
+    // dohvati popup
+var popup = document.getElementById("myPopup");
+// dohvati gumb koj otvara popup
+var btn = document.getElementById("btn");
+// Dohvati <span> element koj zatvara popup
+var span = document.getElementsByClassName("close")[0];
+// kada user klikne na gumb otvori popup
+btn.onclick = function() {
+  popup.style.display = "block";
+}
+// kada user klikne na <span> X, zatvori popup
+span.onclick = function() {
+  popup.style.display = "none";
+}
+// kada user klikne negdje izvan popup-a zatvori ga
+window.onclick = function(event) {
+  if (event.target == popup) {
+    popup.style.display = "none";
+  }
+}
+</script>
+
+
+</body>
+</html>
